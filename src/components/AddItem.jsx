@@ -15,7 +15,7 @@ export const AddItem = ({ category }) => {
       </section>
 
       {
-        isLoading && (<h2>Loading...</h2>)
+        isLoading && (<h2 className="dark:text-slate-400">Loading...</h2>)
       }
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 m-1 ">

@@ -17,7 +17,7 @@ export const GifApp = () => {
   return (
     <div className="grid justify-center bg-amber-100 dark:bg-slate-800">
 
-      <button className="fixed top-14 right-4 z-[99]">
+      <button className="fixed top-10 right-8 z-[99]">
         <ThemeSwitcher />
       </button>
 
